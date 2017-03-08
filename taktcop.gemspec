@@ -9,12 +9,13 @@ Gem::Specification.new do |spec|
   spec.authors       = ["codeTakt"]
   spec.email         = ["dev@codetakt.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
-  spec.license       = "MIT"
+  spec.summary       = "codeTakt's Ruby convention using RuboCop."
+  spec.description   = 'Manage and provides Ruby coding conventions to our projects.'
 
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
+  spec.homepage      = 'https://github.com/codetakt/taktcop/'
+  spec.license       = 'MIT'
+
+  # Prevent pushing this gem to RubyGems.org. To allow pufshes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
     spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
