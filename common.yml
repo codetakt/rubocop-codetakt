@@ -1,0 +1,26 @@
+Metrics/LineLength:
+  Max: 128
+
+Style/AsciiComments:
+  Enabled: false
+
+# https://github.com/onk/onkcop/blob/666cb654562ef80afc475b54ca9625152cb3c94a/config/rubocop.yml#L39
+# > scope が違うとか親 module の存在確認が必要とかデメリットはあるが、
+# > namespace 付きのクラスはかなり頻繁に作るので簡単に書きたい。
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Lambda:
+  EnforcedStyle: literal
+
+Style/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
