@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "taktcop"
+require "rubocop-codetakt"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

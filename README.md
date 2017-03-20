@@ -9,7 +9,7 @@ Put this configurations and RuboCop to your `Gemfile`.
 ```ruby
 group :development do
   gem 'rubocop', require: false
-  gem 'taktcop', require: false, github: 'codetakt/taktcop'
+  gem 'rubocop-codetakt', require: false, github: 'codetakt/rubocop-codetakt'
 end
 ```
 
@@ -17,7 +17,7 @@ And then create `.rubocop.yml`.
 
 ```yaml
 inherit_gem:
-  taktcop:
+  rubocop-codetakt:
     - common.yml
     - rails.yml # optional.
 ```

@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in taktcop.gemspec
+# Specify your gem's dependencies in rubocop-codetakt.gemspec
 gemspec

@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'taktcop/version'
+require 'rubocop-codetakt/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "taktcop"
+  spec.name          = "rubocop-codetakt"
   spec.version       = Taktcop::VERSION
   spec.authors       = ["codeTakt"]
   spec.email         = ["dev@codetakt.com"]
@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "codeTakt's Ruby convention using RuboCop."
   spec.description   = 'Manage and provides Ruby coding conventions to our projects.'
 
-  spec.homepage      = 'https://github.com/codetakt/taktcop/'
+  spec.homepage      = 'https://github.com/codetakt/rubocop-codetakt/'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pufshes either set the 'allowed_push_host'
