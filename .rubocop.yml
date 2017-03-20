@@ -1,2 +1,1 @@
-inherit_from:
-  - common.yml
+inherit_from: ./config/default.yml

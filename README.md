@@ -18,8 +18,8 @@ And then create `.rubocop.yml`.
 ```yaml
 inherit_gem:
   rubocop-codetakt:
-    - common.yml
-    - rails.yml # optional.
+    - config/default.yml
+    - config/rails.yml # optional.
 ```
 
 ## License
