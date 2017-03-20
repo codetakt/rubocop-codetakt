@@ -6,10 +6,17 @@ Common RuboCop configurations for the codeTakt's project.
 
 Put this configurations and RuboCop to your `Gemfile`.
 
+In general:
+
+```ruby
+gem 'rubocop'
+```
+
+Rails product:
+
 ```ruby
 group :development do
-  gem 'rubocop', require: false
-  gem 'rubocop-codetakt', require: false, github: 'codetakt/rubocop-codetakt'
+  gem 'rubocop-codetakt', require: false
 end
 ```
 
