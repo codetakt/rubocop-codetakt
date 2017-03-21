@@ -9,7 +9,7 @@ Put this configurations and RuboCop to your `Gemfile`.
 In general:
 
 ```ruby
-gem 'rubocop'
+gem 'rubocop-codetakt'
 ```
 
 Rails product:
