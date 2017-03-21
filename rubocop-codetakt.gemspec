@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'rubocop-codetakt'
-  s.version     = '0.1.0'
+  s.version     = '0.2.0'
   s.authors     = 'codeTakt'
   s.email       = 'dev@codetakt.com'
 
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/codetakt/rubocop-codetakt/'
   s.license     = 'MIT'
 
-  s.files       = Dir['README.md', 'LICENSE', 'config/*.yml']
+  s.files       = Dir['CHANGELOG.md', 'README.md', 'LICENSE', 'config/*.yml']
 
   s.add_dependency 'rubocop', '~> 0.47'
 
