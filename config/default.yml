@@ -1,8 +1,24 @@
 AllCops:
   DisplayCopNames: true
 
+Metrics/AbcSize:
+  Max: 30
+
+Metrics/CyclomaticComplexity:
+  Max: 10
+
+# https://github.com/onk/onkcop/blob/f3283b5/config/rubocop.yml#L283-L289
+# > * 警告 120文字
+# > * 禁止 160文字
+# > のイメージ
 Metrics/LineLength:
-  Max: 128
+  Max: 160
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/PerceivedComplexity:
+  Max: 10
 
 Style/AsciiComments:
   Enabled: false
