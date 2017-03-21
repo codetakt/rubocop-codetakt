@@ -7,7 +7,7 @@ Metrics/LineLength:
 Style/AsciiComments:
   Enabled: false
 
-# https://github.com/onk/onkcop/blob/666cb654562ef80afc475b54ca9625152cb3c94a/config/rubocop.yml#L39
+# https://github.com/onk/onkcop/blob/f3283b5/config/rubocop.yml#L39-L42
 # > scope が違うとか親 module の存在確認が必要とかデメリットはあるが、
 # > namespace 付きのクラスはかなり頻繁に作るので簡単に書きたい。
 Style/ClassAndModuleChildren:
