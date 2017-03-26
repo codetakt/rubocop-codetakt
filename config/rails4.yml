@@ -1,0 +1,6 @@
+# Prevent the False positives in Rails 4.2.
+#
+# See: http://tech.sideci.com/entry/2016/10/20/110000 and
+#      https://github.com/bbatsov/rubocop/issues/3629#issuecomment-254059840
+Rails/HttpPositionalArguments:
+  Enabled: false

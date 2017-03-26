@@ -27,6 +27,7 @@ inherit_gem:
   rubocop-codetakt:
     - config/default.yml
     - config/rails.yml # optional.
+    - config/rails4.yml # optional.
 ```
 
 ## License

@@ -2,9 +2,16 @@
 
 ## Unreleased
 
-[full changelog](https://github.com/codetakt/rubocop-codetakt/compare/v0.2.2...HEAD)
+[full changelog](https://github.com/codetakt/rubocop-codetakt/compare/v0.2.3...HEAD)
 
 * Update the Changelog.
+
+## v0.2.3 (2017-03-27)
+
+[full changelog](https://github.com/codetakt/rubocop-codetakt/compare/v0.2.2...v0.2.3)
+
+* Add the new config "config/rails4.yml".
+  For prevent the False positives in Rails 4.2.
 
 ## v0.2.2 (2017-03-27)
 
