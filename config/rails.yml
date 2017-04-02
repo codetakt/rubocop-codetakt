@@ -1,7 +1,6 @@
-AllCops:
-  Exclude:
-    - 'vendor/**/*'
-    - 'db/schema.rb'
+inherit_gem:
+  onkcop:
+    - config/rails.yml
 
-Rails:
-  Enabled: true
+Style/IndentationConsistency:
+  EnforcedStyle: normal
