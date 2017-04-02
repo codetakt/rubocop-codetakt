@@ -1,9 +1,10 @@
 # rubocop-codetakt
 
-## Unreleased
+## v0.3.0 (2017-04-03)
 
-[full changelog](https://github.com/codetakt/rubocop-codetakt/compare/v0.2.3...HEAD)
+[full changelog](https://github.com/codetakt/rubocop-codetakt/compare/v0.2.3...v0.3.0)
 
+* Use the onkcop v0.48.0.0.
 * Update the Changelog.
 
 ## v0.2.3 (2017-03-27)
