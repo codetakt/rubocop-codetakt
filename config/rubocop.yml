@@ -27,12 +27,6 @@ Style/StringLiterals:
 Style/StringLiteralsInInterpolation:
   EnforcedStyle: single_quotes
 
-Style/SymbolArray:
-  Enabled: true
-
 Style/TrailingCommaInLiteral:
   Enabled: true
   EnforcedStyleForMultiline: no_comma
-
-Style/WordArray:
-  Enabled: true
