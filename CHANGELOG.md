@@ -1,5 +1,11 @@
 # rubocop-codetakt
 
+## v0.4.0 (2017-04-07)
+
+[full changelog](https://github.com/codetakt/rubocop-codetakt/compare/v0.3.0...v0.4.0)
+
+* Disable the Style/WordArray cop and the Style/SymbolArray cop.
+
 ## v0.3.0 (2017-04-03)
 
 [full changelog](https://github.com/codetakt/rubocop-codetakt/compare/v0.2.3...v0.3.0)
