@@ -1,5 +1,12 @@
 # rubocop-codetakt
 
+## v0.5.0 (2017-04-30)
+
+[full changelog](https://github.com/codetakt/rubocop-codetakt/compare/v0.4.0...v0.5.0)
+
+* Update `onkcop` v0.48.1.1.
+* Disable the RSpec/DescribedClass cop for the request specs.
+
 ## v0.4.0 (2017-04-07)
 
 [full changelog](https://github.com/codetakt/rubocop-codetakt/compare/v0.3.0...v0.4.0)
