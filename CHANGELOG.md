@@ -1,5 +1,11 @@
 # rubocop-codetakt
 
+## v0.6.0 (2017-06-14)
+
+[full changelog](https://github.com/codetakt/rubocop-codetakt/compare/v0.5.0...v0.6.0)
+
+*	Disable the Style/MethodCalledOnDoEndBlock cop.
+
 ## v0.5.0 (2017-04-30)
 
 [full changelog](https://github.com/codetakt/rubocop-codetakt/compare/v0.4.0...v0.5.0)

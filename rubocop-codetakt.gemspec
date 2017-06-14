@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'rubocop-codetakt'
-  s.version     = '0.5.0'
+  s.version     = '0.6.0'
   s.authors     = 'codeTakt'
   s.email       = 'dev@codetakt.com'
 
