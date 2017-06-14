@@ -17,6 +17,9 @@ Metrics/PerceivedComplexity:
 Style/DotPosition:
   EnforcedStyle: leading
 
+Style/MethodCalledOnDoEndBlock:
+  Enabled: false
+
 Style/MultilineMethodCallIndentation:
   EnforcedStyle: indented
   IndentationWidth: 2
