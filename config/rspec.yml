@@ -5,3 +5,16 @@ inherit_gem:
 RSpec/DescribedClass:
   Exclude:
     - "spec/requests/*"
+
+# Accepts more deeper nests than default(3).
+#   describe 'Class'
+#     describe 'method'
+#       context 'larger scope (behavior)'
+#         context 'smaller scope (parameter)'
+RSpec/NestedGroups:
+  Max: 4
+
+# TODO: Remove after below PR is released.
+# https://github.com/onk/onkcop/pull/30
+RSpec/EmptyLineAfterFinalLet:
+  Enabled: false
