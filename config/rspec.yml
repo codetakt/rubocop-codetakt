@@ -13,3 +13,8 @@ RSpec/DescribedClass:
 #         context 'smaller scope (parameter)'
 RSpec/NestedGroups:
   Max: 4
+
+# TODO: Remove after below PR is released.
+# https://github.com/onk/onkcop/pull/30
+RSpec/EmptyLineAfterFinalLet:
+  Enabled: false
