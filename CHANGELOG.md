@@ -1,5 +1,13 @@
 # rubocop-codetakt
 
+## v0.7.0 (2017-07-11)
+
+[full changelog](https://github.com/codetakt/rubocop-codetakt/compare/v0.6.0...v0.7.0)
+
+*	Loosen RSpec/NestedGroups to Max: 4.
+* Backport "Disable RSpec/EmptyLineAfterFinalLet cop"
+  * From: https://github.com/onk/onkcop/pull/30
+
 ## v0.6.0 (2017-06-14)
 
 [full changelog](https://github.com/codetakt/rubocop-codetakt/compare/v0.5.0...v0.6.0)
