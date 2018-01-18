@@ -1,5 +1,12 @@
 # rubocop-codetakt
 
+## v0.7.1 (2018-01-18)
+
+[full changelog](https://github.com/codetakt/rubocop-codetakt/compare/v0.7.0...v0.7.1)
+
+*	Resurrect the compatibility to the SideCI
+  * Explicit the dependency to the RuboCop, is for running on the SideCI.
+
 ## v0.7.0 (2017-07-11)
 
 [full changelog](https://github.com/codetakt/rubocop-codetakt/compare/v0.6.0...v0.7.0)
