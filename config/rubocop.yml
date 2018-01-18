@@ -2,6 +2,13 @@ inherit_gem:
   onkcop:
     - config/rubocop.yml
 
+Layout/DotPosition:
+  EnforcedStyle: leading
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+  IndentationWidth: 2
+
 Metrics/AbcSize:
   Max: 30
 
@@ -14,15 +21,8 @@ Metrics/MethodLength:
 Metrics/PerceivedComplexity:
   Max: 10
 
-Style/DotPosition:
-  EnforcedStyle: leading
-
 Style/MethodCalledOnDoEndBlock:
   Enabled: false
-
-Style/MultilineMethodCallIndentation:
-  EnforcedStyle: indented
-  IndentationWidth: 2
 
 Style/StringLiterals:
   EnforcedStyle: single_quotes

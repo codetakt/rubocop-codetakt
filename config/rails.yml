@@ -2,5 +2,5 @@ inherit_gem:
   onkcop:
     - config/rails.yml
 
-Style/IndentationConsistency:
+Layout/IndentationConsistency:
   EnforcedStyle: normal
