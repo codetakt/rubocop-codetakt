@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
 
   s.files       = Dir['CHANGELOG.md', 'README.md', 'LICENSE', 'config/*.yml']
 
-  s.add_dependency 'onkcop', '0.48.1.1'
+  s.add_dependency 'onkcop', '0.52.1.1'
 
   s.add_development_dependency 'bundler', '~> 1.14'
   s.add_development_dependency 'rake',    '~> 10.0'
