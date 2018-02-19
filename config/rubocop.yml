@@ -21,6 +21,9 @@ Metrics/MethodLength:
 Metrics/PerceivedComplexity:
   Max: 10
 
+Layout/IndentationConsistency:
+  EnforcedStyle: normal
+
 Style/MethodCalledOnDoEndBlock:
   Enabled: false
 
