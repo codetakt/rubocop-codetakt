@@ -33,6 +33,8 @@ Style/StringLiterals:
 Style/StringLiteralsInInterpolation:
   EnforcedStyle: single_quotes
 
+Style/TrailingCommaInArguments:
+  Enabled: false
+
 Style/TrailingCommaInLiteral:
-  Enabled: true
-  EnforcedStyleForMultiline: no_comma
+  Enabled: false
