@@ -1,3 +1,10 @@
 inherit_gem:
   onkcop:
     - config/rails.yml
+
+# Migrations are must not depend to the ApplicationRecord,
+# because the AR is mutable.
+# So each migration should be reproducible in the future.
+Rails/ApplicationRecord:
+  Exclude:
+    - "db/migrate/*.rb"
