@@ -1,2 +1,2 @@
 inherit_gem:
-  onkcop: "config/rubocop.yml"
+  rubocop-codetakt: "config/rubocop.yml"

@@ -1,6 +1,8 @@
 The MIT License (MIT)
 
-Copyright (c) 2015 Takafumi ONAKA
+Copyright for portions of project rubocop-codetakt are held by Takafumi
+ONAKA, 2019 as part of project onkcop. All other copyright for project
+rubocop-codetakt are held by codeTakt, 2020.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

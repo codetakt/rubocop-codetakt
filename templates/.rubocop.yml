@@ -1,5 +1,5 @@
 inherit_gem:
-  onkcop:
+  rubocop-codetakt:
     - "config/rubocop.yml"
     # uncomment if use rails cops
     # - "config/rails.yml"

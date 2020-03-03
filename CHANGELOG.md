@@ -1,4 +1,8 @@
-# onkcop
+# rubocop-codetakt:
+
+## unreleased
+
+* Fork from onk/onkcop to codetakt/rubocop-codetakt
 
 ## v0.53.0.3 (2019-01-20)
 

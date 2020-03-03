@@ -1,16 +1,19 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "onkcop/version"
+require "rubocop/codetakt/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "onkcop"
-  spec.version       = Onkcop::VERSION
-  spec.authors       = ["Takafumi ONAKA"]
-  spec.email         = ["takafumi.onaka@gmail.com"]
+  spec.name          = "rubocop-codetakt"
+  spec.version       = RuboCop::Codetakt::VERSION
+  spec.authors       = ["codeTakt Developers"]
+  spec.email         = ["dev@codetakt.com"]
 
-  spec.summary       = "OnkCop is a RuboCop configration gem."
-  spec.description   = "OnkCop is a RuboCop configration gem."
-  spec.homepage      = "https://github.com/onk/onkcop"
+  spec.summary       = "Unify the coding style of Ruby within codeTakt Inc."
+  spec.description   = <<-EOF
+    This includes the RuboCop configuration used by codeTakt. It is
+    for the unification and linting of coding styles.
+  EOF
+  spec.homepage      = "https://github.com/codetakt/rubocop-codetakt"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject {|f| f.match(%r{^(test|spec|features)/}) }

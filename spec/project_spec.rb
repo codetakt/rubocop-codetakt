@@ -1,6 +1,6 @@
 require "yaml"
 
-describe "OnkCop Project", type: :feature do
+describe "rubocop-codetakt Project", type: :feature do
   %w[rubocop rails rspec].each do |target|
     describe "config/#{target}.yml" do
       before {
