@@ -15,12 +15,6 @@ AllCops:
 Layout/ClassStructure:
   Enabled: true
 
-# メソッドチェーンの改行は末尾に . を入れる
-# * REPL に貼り付けた際の暴発を防ぐため
-# * 途中にコメントをはさむことができて実用上圧倒的に便利
-Layout/DotPosition:
-  EnforcedStyle: trailing
-
 # 桁揃えが綺麗にならないことが多いので migration は除外
 Layout/ExtraSpacing:
   Exclude:
@@ -37,10 +31,6 @@ Layout/FirstArrayElementIndentation:
 Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
 
-# private/protected は一段深くインデントする
-Layout/IndentationConsistency:
-  EnforcedStyle: indented_internal_methods
-
 # * 警告 120文字
 # * 禁止 160文字
 # のイメージ
@@ -49,9 +39,11 @@ Layout/LineLength:
   Exclude:
     - "db/migrate/*.rb"
 
-# メソッドチェーン感がより感じられるインデントにする
+# This is a port from our history.
+# Unfortunately, that process has been lost.
 Layout/MultilineMethodCallIndentation:
-  EnforcedStyle: indented_relative_to_receiver
+  EnforcedStyle: indented
+  IndentationWidth: 2
 
 # {} は 1 行で書くときに主に使われるので、スペースよりも
 # 横に長くならない方が嬉しさが多い。
@@ -113,7 +105,7 @@ Lint/Void:
 # 30 まではギリギリ許せる範囲だったけど
 # リリースごとに 3 ずつぐらい下げていきます。20 まで下げたい。
 Metrics/AbcSize:
-  Max: 24
+  Max: 30 # Loosen for our firm.
 
 # Gemfile, Guardfile は DSL 的で基本的に複雑にはならないので除外
 # rake, rspec, environments, routes は巨大な block 不可避なので除外
@@ -142,7 +134,7 @@ Metrics/MethodLength:
 
 # 分岐の数。ガード句を多用しているとデフォルト 7 だと厳しい
 Metrics/PerceivedComplexity:
-  Max: 8
+  Max: 10 # Loosen for our firm.
 
 
 #################### Naming ################################
@@ -275,11 +267,6 @@ Style/IfUnlessModifier:
 Style/Lambda:
   EnforcedStyle: literal
 
-# end.some_method とチェインするのはダサい
-# Style/BlockDelimiters と相性が悪いけど、頑張ってコードを修正してください
-Style/MethodCalledOnDoEndBlock:
-  Enabled: true
-
 # この 2 つは単発で動かすのが分かっているので Object を汚染しても問題ない。
 # spec/dummy は Rails Engine を開発するときに絶対に引っかかるので入れておく。
 Style/MixinUsage:
@@ -343,17 +330,6 @@ Style/Semicolon:
   Exclude:
     - "spec/**/*_spec.rb"
 
-# * 式展開したい場合に書き換えるのが面倒
-# * 文章ではダブルクォートよりもシングルクォートの方が頻出する
-# ことから EnforcedStyle: double_quotes 推奨
-Style/StringLiterals:
-  EnforcedStyle: double_quotes
-
-# 式展開中でもダブルクォートを使う
-# 普段の文字列リテラルがダブルクォートなので使い分けるのが面倒
-Style/StringLiteralsInInterpolation:
-  EnforcedStyle: double_quotes
-
 # String#intern は ruby の内部表現すぎるので String#to_sym を使う
 Style/StringMethods:
   Enabled: true
@@ -368,27 +344,16 @@ Style/SymbolArray:
 Style/TernaryParentheses:
   EnforcedStyle: require_parentheses_when_complex
 
-# 複数行の場合はケツカンマを入れる(引数)
-# Ruby は関数の引数もカンマを許容しているので
-# * 単行は常にケツカンマ無し
-# * 複数行は常にケツカンマ有り
-# に統一したい。
-# 見た目がアレだが、ES2017 でも関数引数のケツカンマが許容されるので
-# 世界はそちらに向かっている。
+# Count on developers the handling of the trailing commas
+# Make consistency with the eslint-config-codetakt.
 Style/TrailingCommaInArguments:
-  EnforcedStyleForMultiline: comma
+  Enabled: false
 
-# 複数行の場合はケツカンマを入れる(Arrayリテラル)
-# JSON がケツカンマを許していないという反対意見もあるが、
-# 古い JScript の仕様に縛られる必要は無い。
-# IE9 以降はリテラルでケツカンマ OK なので正しい差分行の検出に寄せる。
-# 2 insertions(+), 1 deletion(-) ではなく、1 insertions
 Style/TrailingCommaInArrayLiteral:
-  EnforcedStyleForMultiline: comma
+  Enabled: false
 
-# 複数行の場合はケツカンマを入れる(Hashリテラル)
 Style/TrailingCommaInHashLiteral:
-  EnforcedStyleForMultiline: comma
+  Enabled: false
 
 # %w() と %i() が見分けづらいので Style/SymbolArray と合わせて無効に。
 # 書き手に委ねるという意味で、Enabled: false にしています。使っても良い。

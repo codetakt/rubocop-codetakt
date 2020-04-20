@@ -3,6 +3,13 @@ require: "rubocop-rails"
 Rails:
   Enabled: true
 
+# Migrations are must not depend to the ApplicationRecord,
+# because the AR is mutable.
+# So each migration should be reproducible in the future.
+Rails/ApplicationRecord:
+  Exclude:
+    - "db/migrate/*.rb"
+
 # ActiveRecord で association を安易に delegate すると
 # N+1 を起こしまくるので、なるべく delegate 的なメソッドを使わずに
 # コストが掛かっていることを自覚できるようにしておきたい。
