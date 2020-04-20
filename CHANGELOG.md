@@ -1,8 +1,25 @@
 # rubocop-codetakt:
 
-## unreleased
+## v0.82.0.0 (2020-04-20)
 
 * Fork from onk/onkcop to codetakt/rubocop-codetakt
+* Follow upstream renamings
+* Separate the file of performance settings
+* Clarify requiring the `rubocop-rails` gem in the Rails settings file
+* Refine dependency settings
+* Remove `Layout/DotPosition` cop'
+* Remove `Layout/IndentationConsistency` cop
+* Remove `Style/BracesAroundHashParameters` cop
+* Remove `Style/MethodCalledOnDoEndBlock`
+* Remove `Style/StringLiteralsInInterpolation` cop
+* Remove `Style/StringLiterals` cop
+* Change `Metrics/AbcSize` cop option
+* Change `Metrics/PerceivedComplexity` cop option
+* Change `Layout/MultilineMethodCallIndentation` cop option
+* Change `Style/TrailingCommaInArguments` cop option
+* Change `Style/TrailingCommaInArrayLiteral` cop option
+* Change `Style/TrailingCommaInHashLiteral` cop option
+* Change `Rails/ApplicationRecord` cop option
 
 ## v0.53.0.3 (2019-01-20)
 

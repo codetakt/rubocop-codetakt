@@ -1,5 +1,5 @@
 module RuboCop
   module Codetakt
-    VERSION = "0.53.0.3"
+    VERSION = "0.82.0.0"
   end
 end
