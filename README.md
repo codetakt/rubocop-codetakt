@@ -20,6 +20,8 @@ bundle exec rubocop-codetakt init
 inherit_gem:
   rubocop-codetakt:
     - "config/rubocop.yml"
+    # uncomment if use performance cops
+    # - "config/performance.yml"
     # uncomment if use rails cops
     # - "config/rails.yml"
     # uncomment if use rspec cops
