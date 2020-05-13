@@ -1,5 +1,9 @@
 # rubocop-codetakt:
 
+## unreleased
+
+* Make the code in this repository to no offenses.
+
 ## v0.82.0.0 (2020-04-20)
 
 * Fork from onk/onkcop to codetakt/rubocop-codetakt

@@ -1,4 +1,4 @@
-require "fileutils"
+require 'fileutils'
 
 module RuboCop
   module Codetakt
@@ -30,15 +30,16 @@ module RuboCop
       end
 
       def self.print_help
-        puts "rubocop-codetakt commands:"
-        puts "  init - Setup .rubocop.yml"
+        puts 'rubocop-codetakt commands:'
+        puts '  init - Setup .rubocop.yml'
       end
 
-      CONFIG_FILE_NAME = ".rubocop.yml"
+      CONFIG_FILE_NAME = '.rubocop.yml'.freeze
       def init(args)
-        raise "usage: rubocop-codetakt init" unless args.empty?
-        template_path = File.expand_path("../../../templates", __dir__)
-        puts "#{File.exist?(CONFIG_FILE_NAME) ? "overwrite" : "create"} #{CONFIG_FILE_NAME}"
+        raise 'usage: rubocop-codetakt init' unless args.empty?
+
+        template_path = File.expand_path('../../../templates', __dir__)
+        puts "#{File.exist?(CONFIG_FILE_NAME) ? 'overwrite' : 'create'} #{CONFIG_FILE_NAME}"
         FileUtils.copy_file(File.join(template_path, CONFIG_FILE_NAME), CONFIG_FILE_NAME)
       end
     end
