@@ -7,6 +7,7 @@
 ## v0.82.0.0 (2020-04-20)
 
 * Fork from onk/onkcop to codetakt/rubocop-codetakt
+* Update `rubocop` v0.82.0, `rubocop-rspec` v1.38.0, `rubocop-rails` v2.5.0 and `rubocop-performance` v1.5.0
 * Follow upstream renamings
 * Separate the file of performance settings
 * Clarify requiring the `rubocop-rails` gem in the Rails settings file
