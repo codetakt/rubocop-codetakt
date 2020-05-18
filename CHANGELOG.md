@@ -1,8 +1,9 @@
 # rubocop-codetakt:
 
-## unreleased
+## v0.83.0.0 (2020-05-18)
 
-* Make the code in this repository to no offenses.
+* Make the code in this repository to no offenses
+* Update `rubocop` v0.83.0
 
 ## v0.82.0.0 (2020-04-20)
 
