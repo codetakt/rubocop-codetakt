@@ -1,5 +1,4 @@
-inherit_gem:
-  rubocop-codetakt:
-    - "config/rubocop.yml"
-    - "config/performance.yml"
-    - "config/rspec.yml"
+inherit_from:
+  - "config/rubocop.yml"
+  - "config/performance.yml"
+  - "config/rspec.yml"
