@@ -1,5 +1,10 @@
 # rubocop-codetakt:
 
+## v0.82.0.1 (2020-06-01)
+
+* Make the code in this repository to no offenses
+* Accept the default setting of new cops
+
 ## v0.82.0.0 (2020-04-20)
 
 * Fork from onk/onkcop to codetakt/rubocop-codetakt
