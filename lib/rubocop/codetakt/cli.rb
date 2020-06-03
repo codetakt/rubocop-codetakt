@@ -26,7 +26,7 @@ module RuboCop
 
       def self.retrieve_command_name(args)
         meth = args.first.to_s unless args.empty?
-        args.shift if meth && (meth !~ /^\-/)
+        args.shift if meth && (meth !~ /^-/)
       end
 
       def self.print_help
