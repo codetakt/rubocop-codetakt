@@ -2,7 +2,7 @@
 
 ## v0.83.0.1 (2020-06-03)
 
-* Disalbe `RSpec/MultipleExpectations:` cop
+* Disable `RSpec/MultipleExpectations:` cop
 
 ## v0.83.0.0 (2020-05-18)
 
@@ -21,7 +21,7 @@
 * Separate the file of performance settings
 * Clarify requiring the `rubocop-rails` gem in the Rails settings file
 * Refine dependency settings
-* Remove `Layout/DotPosition` cop'
+* Remove `Layout/DotPosition` cop
 * Remove `Layout/IndentationConsistency` cop
 * Remove `Style/BracesAroundHashParameters` cop
 * Remove `Style/MethodCalledOnDoEndBlock`
@@ -79,7 +79,7 @@
 * Update `rubocop` v0.52.0 and `rubocop-rspec` v1.21.0
 * Remove `DisplayCopNames` configuration
 * Enable new `Style/ClassStructure` cop
-* Disalbe `Style/FormatStringToken` cop
+* Disable `Style/FormatStringToken` cop
 * Change `Layout/SpaceBeforeBlockBraces` cop's empty braces style to `space`
 * Change `Style/RescueStandardError` cop to implicit style
 * Change `RSpec/MultipleExpectations` cop to `AggregateFailuresByDefault` style
