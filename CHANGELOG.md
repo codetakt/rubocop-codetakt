@@ -1,5 +1,10 @@
 # rubocop-codetakt:
 
+## v0.84.0.0 (2020-06-04)
+
+* Update `rubocop` v0.84.0, `rubocop-rspec` v1.39.0, `rubocop-rails` v2.5.0 and `rubocop-performance` v1.6.0
+* Clarify `Layout/HashAlignment` cop option
+
 ## v0.83.0.1 (2020-06-03)
 
 * Disable `RSpec/MultipleExpectations:` cop
