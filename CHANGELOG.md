@@ -1,5 +1,9 @@
 # rubocop-codetakt:
 
+## v0.83.0.1 (2020-06-03)
+
+* Disalbe `RSpec/MultipleExpectations:` cop
+
 ## v0.83.0.0 (2020-05-18)
 
 * Update `rubocop` v0.83.0
