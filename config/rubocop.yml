@@ -35,6 +35,15 @@ Layout/FirstArrayElementIndentation:
 Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
 
+# We have decided to accept the default options of this cop (as of
+# RuboCop v0.83.0.) These are certainly useful in many situations.
+# However, any product team has the discretion to locally disable this
+# cop.
+Layout/HashAlignment:
+  EnforcedHashRocketStyle: key
+  EnforcedColonStyle: key
+  EnforcedLastArgumentHashStyle: always_inspect
+
 # * 警告 120文字
 # * 禁止 160文字
 # のイメージ
