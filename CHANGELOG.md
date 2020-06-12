@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-* Update `rubocop-rails` to v2.6.0
+* Update `rubocop-rails` to v2.6.0 and `rubocop-rspec` v1.40.0
 
 ## v0.85.0.0 (2020-06-04)
 
