@@ -1,8 +1,8 @@
 # rubocop-codetakt:
 
-## Unreleased
+## v0.87.0.0 (2020-07-07)
 
-* Update `rubocop-rails` to v2.6.0 and `rubocop-rspec` v1.41.0
+* Update `rubocop` v0.87.0, `rubocop-rails` to v2.6.0 and `rubocop-rspec` v1.41.0
 
 ## v0.85.0.0 (2020-06-04)
 
