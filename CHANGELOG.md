@@ -1,8 +1,8 @@
 # rubocop-codetakt:
 
-## Unreleased
+## v0.87.1.0 (2020-07-08)
 
-* Update `rubocop-performance` to v1.7.0
+* Update `rubocop` v0.87.1 and `rubocop-performance` v1.7.0
 
 ## v0.87.0.0 (2020-07-07)
 
