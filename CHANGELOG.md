@@ -1,5 +1,9 @@
 # rubocop-codetakt:
 
+## v0.88.0.0 (2020-07-17)
+
+* Update `rubocop` to v0.88.0
+
 ## v0.87.1.0 (2020-07-08)
 
 * Update `rubocop` v0.87.1 and `rubocop-performance` v1.7.0
