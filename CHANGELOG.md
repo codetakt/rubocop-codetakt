@@ -1,8 +1,9 @@
 # rubocop-codetakt:
 
-## Unreleased
+## v0.89.1.0 (2020-08-10)
 
 * Enable `Rails/FilePath` cop
+* Update `rubocop` v0.89.1 and `rubocop-performance` v1.7.1
 
 ## v0.88.0.0 (2020-07-17)
 

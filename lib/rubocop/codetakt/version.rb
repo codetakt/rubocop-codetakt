@@ -1,5 +1,5 @@
 module RuboCop
   module Codetakt
-    VERSION = '0.88.0.0'.freeze
+    VERSION = '0.89.1.0'.freeze
   end
 end
