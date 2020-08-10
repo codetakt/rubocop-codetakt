@@ -22,15 +22,6 @@ Rails/Delegate:
 Rails/Exit:
   Enabled: false
 
-# -File.join(Rails.root, "app", "models")
-# +Rails.root.join("app", "models")
-# はともかく
-# -Rails.root.join("app/models")
-# +Rails.root.join("app", "models")
-# は Pathname#plus が行っているので意味無いのでは？
-Rails/FilePath:
-  Enabled: false
-
 # 桁が揃わなくて気持ち悪い
 #   create(:user, logged_in_at: 1.day.ago)
 #   create(:user, logged_in_at: 2.days.ago)
