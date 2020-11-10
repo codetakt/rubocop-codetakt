@@ -1,5 +1,9 @@
 # rubocop-codetakt:
 
+## v1.2.0.0 (2020-11-10)
+
+* Update `rubocop` v1.2.0, `rubocop-rspec` v2.0.0
+
 ## v0.93.1.0 (2020-11-02)
 
 * Update `rubocop` v0.93.1, `rubocop-performance` v1.8.1, `rubocop-rails` v2.8.1 and `rubocop-rspec` v1.44.1
