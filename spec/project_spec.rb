@@ -5,7 +5,7 @@ describe 'rubocop-codetakt Project', type: :feature do
     describe "config/#{target}.yml" do
       before {
         config = YAML.load_file("config/#{target}.yml")
-        @configuration_keys = config.keys.reject {|key| key == 'require' }
+        @configuration_keys = config.keys.reject {|key| key == 'plugins' }
       }
 
       it { expect(@configuration_keys).to eq @configuration_keys.sort }
